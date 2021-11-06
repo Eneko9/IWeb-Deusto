@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(112, 114, 111);
+    margin-left: 7%;
+    margin-right: 7%;
+    border: 2px black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: rgb(87, 54, 54);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-bottom: 1px dotted rgb(87, 54, 54);
+}
+a{
+    color: rgb(87, 54, 54);
+}df
+h2{
+    border-bottom: dotted;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Practica 3 - Ingenieria Web</title>
+</head>
+<body>
+	<h1> Gestion de reservas </h1>
+	<form>
+		<fieldset>
+			<legend> Datos del usuario: </legend>
+			<br>
+			<label for = "nombre"> Nombre </label>
+			<input type = "text" name = "nombre" id = "nombre"><br>
+			<p> Eres socio?</p>
+			<input type = "radio" name = "socio" value = "soySocio"> Si, soy socio
+			<input type = "radio" name = "socio" value = "noSoySocio"> No, no soy socio <br><br>
+			<label for = "e-mail"> E-Mail </label>
+			<input type = "email" name = "e-mail" id = "e-mail"><br><br>
+			<label for = "contrasenya"> Contrasenya </label>
+			<input type = "password" name = "contrasenya" id = "contrasenya"><br>
+		</fieldset>
+		<br>
+		<fieldset>
+			<legend> Datos de la reserva: </legend>
+			<br>
+			<label for = "edad"> Edad </label>
+			<select> id = "edad" name = "edad" 
+				<option> Menor de 18  </option>
+				<option> Mayor de 18  </option>
+			</select>
+			<p>Selecciona la <label for = "fecha"> fecha </label> y la <label for = "hora"> hora </label> de reserva: </p>
+			<input type = "date" name = "fecha" id = "fecha">
+			<input type = "time" name = "hora" id = "hora"> <br><br>
+			<textarea name = "Comentarios" rows = "5" cols = "30"> Comentarios </textarea>
+		</fieldset>
+		<br>
+		<input type ="submit" value = "Confirmar">
+	</form>
+</body>
+</html>
