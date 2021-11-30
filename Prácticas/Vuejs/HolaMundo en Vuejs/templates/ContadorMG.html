@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset = "utf-8">
+	<meta name="viewport" content ="width= device-width">
+	<title>Vue.js - Ingenieria Web</title>
+	<script type="text/javascript" src ="../js/vue.js"></script>
+</head>
+<body>
+
+	<div id="app">
+		<p>
+            La noticia del año: eneko ha ganado una partida al parchis
+        </p>
+        <h2>
+            {{counter}} likes
+        </h2>
+        <button @click = "counter++"> Like </button>
+        <span v-if = "counter>0"><button @click = "counter--"> Dislike </button></span>
+        
+	</div>
+	<script type = "text/javascript">
+	var app = new Vue({
+		el: "#app",
+		data:{
+            header: "Noticia de la facultad de Ingenieria",
+            counter: 0
+		}
+	});
+	</script>
+</body>
+</html>

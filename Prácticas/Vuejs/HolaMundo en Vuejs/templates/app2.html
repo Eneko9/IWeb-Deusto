@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset = "utf-8">
+	<meta name="viewport" content ="width= device-width">
+	<title>Vue.js - Ingenieria Web</title>
+	<script type="text/javascript" src ="../js/vue.js"></script>
+</head>
+<body>
+
+	<div id="app-2">
+		<span v-if="conditional==0">Test condicional v-if {{conditional}}</span>
+	</div>
+	</script>
+
+	<script type ="text/javascript">
+	var app2 = new Vue({
+		el: "#app-2",
+		data:{
+			conditional: 0
+		}
+	});
+	</script>
+</body>
+</html>
